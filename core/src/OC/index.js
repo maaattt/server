@@ -48,6 +48,7 @@ import {
 	showMenu,
 	unregisterMenu,
 } from './menu'
+import {initCore} from '../init'
 import {isUserAdmin} from './admin'
 import L10N from './l10n'
 import {
