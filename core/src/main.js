@@ -19,11 +19,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+import $ from 'jquery'
 import '@babel/polyfill'
 import './Polyfill/index'
 
+// If you remove the line below, tests won't pass
+import OC from './OC/index'
+
 import './globals'
-import $ from 'jquery'
 import './jquery/index'
 import {initCore} from './init'
 import {registerAppsSlideToggle} from './OC/apps'
